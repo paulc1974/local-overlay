@@ -15,7 +15,7 @@ RESTRICT="strip"
 RDEPEND="acct-group/graylog
 	acct-user/graylog
 	>=virtual/jdk-1.8:*"
-
+	dev-db/mongodb
 DOCS=(
 	README.markdown
 )
